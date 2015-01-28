@@ -34,24 +34,31 @@ $(document).ready(function () {
 // $("#result").text($("#jquery-ui").data("likes"))
 
 // Increase in 100 the number of likes and show the number of likes in the result div
-
+// $("#result").text($("#jquery-ui").data("likes") + 100)
 
 // Show the absolute position of the result div in the console
+// console.log($("#result").offset())
 
 // Move the result div to the position 100 top and 150 left
+// $("#result").offset({top: 100, left: 150});
 
 // Change the width and height of the result up to 300px
+// $("#result").width(300)
+// $("#result").height(300)
 
 // Add " (User interface)" after "JQueryUI"
+// $("#jquery-ui").append(" (User interface) ")
 
 // Add a li element with the text "Future JQ" between jQueryUI and jQueryMobile
+// $("#jquery-ui").append("<li>Future JQ</li>")
 
 // Add div containers with the class bordered around every li
+// $("li").wrap("<div class='bordered'>")
 
 // Add a div container with the class bordered around all li
-
+// $("li").wrapAll("<div class='bordered'>")
 // Remove the result div
-
+// $("#result").remove()
 
     /**
      *  Final round
