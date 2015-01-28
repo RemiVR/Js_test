@@ -1,28 +1,40 @@
 $(document).ready(function () {
 
 // Change the width of the h1 element
+// $("h1").width("300px")
 
 // Increase the font-size of all elements to 120%
+// $("*").css("font-size", "120%")
 
 // Add the highlighted class to the elements that has the 'new' class
+// $(".new").addClass("hightlighted")
 
 // Remove the title class from h1
+// $("h1").removeClass("title")
 
 // Set the default age range in 20-30
+// $("#age-range").val("20-30")
 
 // Set the default age range in 20-30 using travesing filters
+// $("#age-range option").eq(2).prop("selected", "selected")
 
 // Uncheck the "I love learning" checkbox
+// $("#love").prop("checked", false)
 
 // Select yellow as a favourite color
+// $("#color-yellow").prop("checked", true)
 
 // Write the selected name of the input in the result div
+// $("#result").text($("#name").attr("value"))
 
 // Write the text of the selected age in the result div
+// $("#result").text($("#age-range").val())
 
 // Writes the number of data likes of jquery-ui in the result div
+// $("#result").text($("#jquery-ui").data("likes"))
 
 // Increase in 100 the number of likes and show the number of likes in the result div
+
 
 // Show the absolute position of the result div in the console
 
