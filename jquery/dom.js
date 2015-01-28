@@ -66,9 +66,14 @@ $(document).ready(function () {
 
 // Set the font color of the color names according to their color
 // Example: The red text should be in red, the blue text should be in blue...
-$("label").has("input[name='color']").css('color',function(){
-return $(this).children().first().val();
-});
+// $("label").has("input[name='color']").css('color',function(){
+// return $(this).children().first().val();
+// });
+
 // Add links to the li elements, the url is the name ended with .com
+ $("li").html(function () {
+        var currentText = $(this).text();
+        return "<a href='http://" + currentText + ".com'>" + currentText + "</a>";
+    });
 
 });
