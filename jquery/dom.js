@@ -72,8 +72,8 @@ $(document).ready(function () {
 
 // Add links to the li elements, the url is the name ended with .com
  $("li").html(function () {
-        var currentText = $(this).text();
-        return "<a href='http://" + currentText + ".com'>" + currentText + "</a>";
+        var links = $(this).text();
+        return "<a href='http://" + links + ".com'>" + links + "</a>";
     });
 
 });
